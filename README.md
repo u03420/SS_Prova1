@@ -1,4 +1,3 @@
 # SS_Prova1
-1er repositori de proves SS
-Aquesta és una 1a línia d'edició a afegir
-Aquesta és una 2a línia de canvis a afegir
+Aquest és simplement un primer projecte de proves d'ús del repositori GetHub
+Tots els components que s'afegiran o modificaran són exemples sense gaire sentit
