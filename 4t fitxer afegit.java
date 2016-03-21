@@ -3,6 +3,8 @@
 <<<<<<< HEAD
 Línia afegida cap a la branch1
 Línia afegida cap a la branch1
+3 Línia afegida cap a la branch1
+
 =======
 Línia afegida en el Master
 >>>>>>> refs/remotes/origin/master
