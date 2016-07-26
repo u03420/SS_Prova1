@@ -26,7 +26,13 @@
 	<end-state name="end-state1"></end-state>
 
 
-	<script name='executionContext.setVariable("exp_observ","exp_observ"+" nova execució botó procés")'></script>
+	<script name="AfegirParagrafScript">
+		String var1 = (String)executionContext.getVariable(&quot;exp_observ&quot;);
+String var2 = var1 + &quot; / nou paràgraf per execució botó de procés&quot;;
+executionContext.setVariable(&quot;exp_observ&quot;,var2)
+	</script>
+
+	<script></script>
 
 
 </process-definition>
