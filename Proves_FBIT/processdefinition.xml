@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process-definition  xmlns=""  name="Proves_FBIT">
+
+
+	<start-state name="start-state1">
+		<transition to="Tasca per iniciar el procés"></transition>
+	</start-state>
+
+
+	<task-node name="Tasca per iniciar el procés">
+		<task name="T01_TASCA_INI">
+			<assignment expression="group(XSN_HELIUM_ADM)"></assignment>
+		</task>
+		<transition to="Tasca per finalitzar el procés"></transition>
+	</task-node>
+
+	<task-node name="Tasca per finalitzar el procés">
+		<task name="T02_TASCA_FIN">
+			<assignment expression="group(XSN_HELIUM_ADM)"></assignment>
+		</task>
+		<transition to="end-state1"></transition>
+	</task-node>
+
+
+	<end-state name="end-state1"></end-state>
+
+
+</process-definition>
