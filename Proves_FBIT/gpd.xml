@@ -6,7 +6,6 @@
       <label x="5" y="-10"/>
     </edge>
   </node>
-  <node name="end-state1" x="190" y="316" width="132" height="36"/>
   <node name="Tasca per iniciar el procés" x="189" y="138" width="132" height="36">
     <edge>
       <label x="5" y="-10"/>
@@ -17,4 +16,5 @@
       <label x="5" y="-10"/>
     </edge>
   </node>
+  <node name="end-state1" x="190" y="316" width="132" height="36"/>
 </root-container>

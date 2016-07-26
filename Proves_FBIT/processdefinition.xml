@@ -26,4 +26,7 @@
 	<end-state name="end-state1"></end-state>
 
 
+	<script name='executionContext.setVariable("exp_observ","exp_observ"+" nova execució botó procés")'></script>
+
+
 </process-definition>
